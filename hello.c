@@ -2,7 +2,9 @@
 
 int main()
 {
-    if(printf("hello world"))
+    char s[100];
+    scanf("%s",s);
+    if(printf(s))
 
     return 0;
 }
